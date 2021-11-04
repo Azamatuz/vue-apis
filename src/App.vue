@@ -1,13 +1,28 @@
 <template>
-    <div id="app" class="container">
+    <div id="app">
+      <h1>Sport Forcaster</h1>
+      <player-view :player="playerView" />
     </div>
 </template>
 
 <script>
+import PlayerView from './components/PlayerView.vue'
 
 
 export default {
+  components: { PlayerView },
   name: 'App',
+  data () {
+    return {
+      playerView: {
+      first_name: "Sidney",
+      last_name: "Crosby",
+      score: 2
+      }
+
+
+    }
+  }
 
 }
 </script>
