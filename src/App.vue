@@ -1145,7 +1145,7 @@ boost: -100,
       return this.players.reduce((acc, item) => acc + item.score, 0);
     }
 }
-.guessing_score.score
+
   };
 
 
