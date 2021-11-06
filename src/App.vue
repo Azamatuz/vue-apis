@@ -24,7 +24,7 @@ export default {
   created () {
     axios({
       method: 'get',
-      url: './data.json'
+      url: 'https://staging.formula.forecaster.ca/api/schedules?season-id=2021&start_date=2021-11-16%2018:59:00&end_date=2021-11-16%2019:01:00'
     })
       .then(responce => (this.players = responce.data))
       .catch(error => console.log(error))
