@@ -21,16 +21,14 @@
 
   </tbody>
 </table>
-    </div>    
-       
+    </div>
 
 </template>
 
 <script>
-    export default {
-        sum: 10,
-        name: 'player-list',
-        props: ['players', 'playerView', 'totalRequest']
-    }
+export default {
+  sum: 10,
+  name: 'player-list',
+  props: ['players', 'playerView', 'totalRequest']
+}
 </script>
-

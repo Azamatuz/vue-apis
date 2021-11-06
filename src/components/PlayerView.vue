@@ -5,9 +5,9 @@
 </template>
 
 <script>
-    export default {
-        name: "player-view",
-        props: ["player"]
+export default {
+  name: 'player-view',
+  props: ['player']
 
-    }
+}
 </script>
