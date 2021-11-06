@@ -1,7 +1,6 @@
 <template>
-    
-       
-        <table class="table">
+  <div>
+    <table class="table">
   <thead>
     <tr>
       <th scope="col">#</th>
@@ -22,7 +21,9 @@
 
   </tbody>
 </table>
-total value {{ totalRequest }}
+    </div>    
+       
+
 </template>
 
 <script>
