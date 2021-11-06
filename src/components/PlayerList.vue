@@ -13,14 +13,16 @@
   <tbody>
     <tr v-for="(player, index) in players" :key="index">
       <th scope="row" >{{ index }}</th>
-      <td>{{player.player_name}}</td>
+      <td>{{player.away-team.players.player-name}}</td>
       <td>{{player.guessing_score.boost}}</td>
       <td>{{player.guessing_score.score}}</td>
-      <td v-if="player.guessing_score.score">{{ totalRequest }}</td>
+      <td>{{ player.id }}</td>
+
     </tr>
 
   </tbody>
 </table>
+{{ players }}
     </div>
 
 </template>

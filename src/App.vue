@@ -24,7 +24,7 @@ export default {
   created () {
     axios({
       method: 'get',
-      url: 'https://staging.formula.forecaster.ca/api/schedule/l.nhl.com-e.20210237'
+      url: './data.json'
     })
       .then(responce => (this.players = responce.data))
       .catch(error => console.log(error))
